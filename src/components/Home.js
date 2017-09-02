@@ -33,12 +33,7 @@ class Home extends Component {
               <ul className="nav navbar-nav">
                 <li style={NavTitle}>
                 </li>
-                <li>
-                </li>
-                <li>
-                </li>
-                <li>
-                </li>
+
               </ul>
             </div>
           </div>
@@ -49,22 +44,16 @@ class Home extends Component {
               <div
                 className="restaurant-name"
                 style={titleStyle}>
-                Majestic Thai
+                
               </div>
               <div className="subtitle" style={subtitleStyle}>
-                East Meets West
+
               </div>
             </div>
           </div>
         </nav>
-
         {this.props.children}
-        <footer className="col-lg-11">
-          <span className="footer-title">Majestic Thai </span>
-          <span>
-            100 Main Street, Spartanburg, SC, 29302 | (864) 898-9999
-          </span>
-        </footer>
+
       </div>
     );
   }

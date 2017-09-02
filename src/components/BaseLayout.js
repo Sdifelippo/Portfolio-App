@@ -20,11 +20,19 @@ class BaseLayout extends Component {
         "padding": "100px"
 
       }
+      let MyImage = {
+        "border-radius": "13rem",
+    "height": "15rem",
+    "width": "22rem"
+
+
+      }
+
       return (
-        <div>
-        <div className="navButton">
-          <NavLink to="/Home" style={buttonStyle}>Home</NavLink>
-          </div>
+        <ul className="navButton">
+        <li style={buttonStyle}>
+          <NavLink to="/Home" >Home</NavLink>
+          </li>
           <div className="navButton">
             <NavLink to="/About" style={buttonStyle}>About</NavLink>
             </div>
@@ -35,31 +43,28 @@ class BaseLayout extends Component {
         <section className="row" style= {FirstStyle}>
           <article className="col-lg-5">
             <h2 className="headings">
-              First
+              Steven Difelippo&apos;s Portfolio
             </h2>
             <hr/>
-            <p className="primary-text">more text </p>
+            <p> Web Developer </p>
+            <img className="MyImage" style= {MyImage} alt="StevenDifelippo" src={require('./StevenDifelippo.jpg')} />
+
           </article>
         </section>
-          <section className="row" style={MasterStyle}>
-            <article className="col-lg-6 col-lg-offset-3">
-              <h2 className="headings">
-                Master
-              </h2>
-              <hr/>
-              <p className="primary-text">
-              primary text
-              </p>
-              <p className="primary-text">
-              primary text here
-              </p>
-            </article>
-          </section>
         </div>
         <div>
          {this.props.children}
         </div>
-        </div>
+<hr/>
+        <footer className="col-lg-11">
+          <span className="footer-title">My Portfolio </span>
+          <span>
+            Contact me  at Steven.Difelippo@gmail.com
+          </span>
+        </footer>
+        </ul>
+
+
 
       );
     }
