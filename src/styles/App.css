@@ -17,7 +17,12 @@
 .App-intro {
   font-size: large;
 }
-
+ 
+let navButton:active {
+  background-color: #f4511e;
+  box-shadow: 0 5px #a6a6;
+  transform: translateY(4px);
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

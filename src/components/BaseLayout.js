@@ -14,31 +14,26 @@ class BaseLayout extends Component {
       let buttonStyle = {
         "textShadow": "1px 1px 2px black",
         "backgroundPosition": "top",
-      }
-      let MasterStyle = {
-        "height": "100%",
-        "padding": "100px"
-
+        
       }
       let MyImage = {
         "border-radius": "13rem",
-    "height": "15rem",
-    "width": "22rem"
-
-
+        "height": "15rem",
+        "width": "22rem"
       }
 
       return (
-        <ul className="navButton">
-        <li style={buttonStyle}>
+        <div className="navButton">
+        <div style={buttonStyle}>
           <NavLink to="/Home" >Home</NavLink>
-          </li>
+          </div>
           <div className="navButton">
             <NavLink to="/About" style={buttonStyle}>About</NavLink>
             </div>
             <div className="navButton">
               <NavLink to="/Portfolio" style={buttonStyle}>Portfolio</NavLink>
               </div>
+
         <div className="app-body about offset col-lg-10 col-lg-offset-1">
         <section className="row" style= {FirstStyle}>
           <article className="col-lg-5">
@@ -62,8 +57,7 @@ class BaseLayout extends Component {
             Contact me  at Steven.Difelippo@gmail.com
           </span>
         </footer>
-        </ul>
-
+        </div>
 
 
       );

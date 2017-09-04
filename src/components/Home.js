@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 //Imports styles page
-import {NavLink} from 'react-router-dom';
 import '../styles/App.css';
 
 class Home extends Component {
@@ -9,10 +8,7 @@ class Home extends Component {
       "fontFamily": "Arizonia",
       "fontSize": "18rem"
     }
-    let NavLink = {
-      "fontFamily": "Raleway",
-      "fontSize": "10rem"
-    }
+
     let headerStyle = {
       "fontFamily": "Arizonia",
       "fontSize": "18rem"
@@ -30,11 +26,6 @@ class Home extends Component {
         <nav className="row navbar navbar-inverse">
           <div className="container-fluid">
             <div className="navbar-header">
-              <ul className="nav navbar-nav">
-                <li style={NavTitle}>
-                </li>
-
-              </ul>
             </div>
           </div>
           <div
@@ -44,7 +35,7 @@ class Home extends Component {
               <div
                 className="restaurant-name"
                 style={titleStyle}>
-                
+
               </div>
               <div className="subtitle" style={subtitleStyle}>
 
