@@ -7,23 +7,29 @@ class BaseLayout extends Component {
   render(){
 
       let FirstStyle = {
-        "textShadow": "1px 1px 2px black",
+        "textShadow": "1px 1px 2px white",
         "height": "100%",
         "padding": "100px"
       }
       let buttonStyle = {
-        "textShadow": "1px 1px 2px black",
+        "textShadow": "1px 1px 2px white",
         "backgroundPosition": "top",
-        
+
       }
       let MyImage = {
         "border-radius": "13rem",
         "height": "15rem",
         "width": "22rem"
       }
+      let wrapHeader = {
+        "height": "50px",
+        "width": "100%",
+        "background-color": "#223A5E"
+      }
 
       return (
-        <div className="navButton">
+        <div className="wrapHeader" style={wrapHeader}>
+        <div className="navButton" >
         <div style={buttonStyle}>
           <NavLink to="/Home" >Home</NavLink>
           </div>
@@ -33,18 +39,19 @@ class BaseLayout extends Component {
             <div className="navButton">
               <NavLink to="/Portfolio" style={buttonStyle}>Portfolio</NavLink>
               </div>
-
-        <div className="app-body about offset col-lg-10 col-lg-offset-1">
-        <section className="row" style= {FirstStyle}>
+</div>
+        <div className="app-body about offset col-lg-10 col-lg-offset-1" >
+        <section className="row" style= {FirstStyle} >
           <article className="col-lg-5">
             <h2 className="headings">
               Steven Difelippo&apos;s Portfolio
             </h2>
             <hr/>
             <p> Web Developer </p>
-            <img className="MyImage" style= {MyImage} alt="StevenDifelippo" src={require('./StevenDifelippo.jpg')} />
-
-          </article>
+            <img className="MyImage" style= {MyImage} alt="StevenDifelippo" src={require('./StevenDifelippo.jpg')}
+            />
+<NavLink to="/Portfolio" style={{color: 'white'}} activeStyle={{color: 'white'}}>Show Portfolio</NavLink>          
+</article>
         </section>
         </div>
         <div>

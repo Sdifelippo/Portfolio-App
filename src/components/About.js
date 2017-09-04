@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
     let cuisineStyle = {
-      "textShadow": "1px 1px 2px black",
+      "textShadow": "1px 1px 2px white",
       "height": "100%",
       "padding": "100px"
     }
     let aboutStyle = {
       "backgroundImage": "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
-      "textShadow": "1px 1px 2px black",
+      "textShadow": "1px 1px 2px white",
       "backgroundPosition": "top",
       "height": "100%",
       "padding": "100px"
@@ -35,7 +35,7 @@ class About extends Component {
         </section>
         <section className="row" style= {cuisineStyle}>
           <article className="col-lg-5">
-            
+
 
           </article>
         </section>

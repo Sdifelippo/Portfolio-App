@@ -4,10 +4,6 @@ import '../styles/App.css';
 
 class Home extends Component {
   render() {
-    let NavTitle = {
-      "fontFamily": "Arizonia",
-      "fontSize": "18rem"
-    }
 
     let headerStyle = {
       "fontFamily": "Arizonia",
@@ -21,6 +17,8 @@ class Home extends Component {
       "fontFamily": "Raleway",
       "fontSize": "10rem"
     }
+
+
     return (
       <div className="container-fluid nav">
         <nav className="row navbar navbar-inverse">
