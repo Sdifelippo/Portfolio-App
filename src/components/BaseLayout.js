@@ -50,7 +50,7 @@ class BaseLayout extends Component {
             <p> Web Developer </p>
             <img className="MyImage" style= {MyImage} alt="StevenDifelippo" src={require('./StevenDifelippo.jpg')}
             />
-<NavLink to="/Portfolio" style={{color: 'white'}} activeStyle={{color: 'white'}}>Show Portfolio</NavLink>          
+<NavLink to="/Portfolio" style={{color: 'white'}} activeStyle={{color: 'white'}}>Show Projects</NavLink>          
 </article>
         </section>
         </div>
