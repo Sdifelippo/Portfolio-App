@@ -22,7 +22,7 @@ class BaseLayout extends Component {
         "width": "22rem"
       }
       let wrapHeader = {
-        "height": "50px",
+        "height": "85px",
         "width": "100%",
         "background-color": "#223A5E"
       }
@@ -40,7 +40,7 @@ class BaseLayout extends Component {
               <NavLink to="/Portfolio" style={buttonStyle}>Portfolio</NavLink>
               </div>
               <div className="navButton">
-                <NavLink to="/Refrences" style={buttonStyle}>Refrences</NavLink>
+                <NavLink to="/References" style={buttonStyle}>References</NavLink>
                 </div>
                 <div className="navButton">
                   <NavLink to="/Contact" style={buttonStyle}>Contact</NavLink>

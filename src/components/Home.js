@@ -30,11 +30,7 @@ class Home extends Component {
             className="col-lg-12 header"
             style={headerStyle}>
             <div className="header-title">
-              <div
-                className="restaurant-name"
-                style={titleStyle}>
-
-              </div>
+              
               <div className="subtitle" style={subtitleStyle}>
 
               </div>
