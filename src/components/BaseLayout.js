@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 // Import link
 import { NavLink } from 'react-router-dom';
-
+import Button from 'muicss/lib/react/button';
 
 class BaseLayout extends Component {
   render(){
@@ -31,19 +31,19 @@ class BaseLayout extends Component {
         <div className="wrapHeader" style={wrapHeader}>
         <div className="navButton" >
         <div style={buttonStyle}>
-          <NavLink to="/Home" >Home</NavLink>
+          <Button><NavLink to="/Home" >Home </NavLink></Button>
           </div>
           <div className="navButton">
-            <NavLink to="/About" style={buttonStyle}>About</NavLink>
+            <Button><NavLink to="/About" style={buttonStyle}>About</NavLink></Button>
             </div>
             <div className="navButton">
-              <NavLink to="/Portfolio" style={buttonStyle}>Portfolio</NavLink>
+              <Button><NavLink to="/Portfolio" style={buttonStyle}>Portfolio</NavLink></Button>
               </div>
               <div className="navButton">
-                <NavLink to="/References" style={buttonStyle}>References</NavLink>
+                <Button><NavLink to="/References" style={buttonStyle}>References</NavLink></Button>
                 </div>
                 <div className="navButton">
-                  <NavLink to="/Contact" style={buttonStyle}>Contact</NavLink>
+                  <Button><NavLink to="/Contact" style={buttonStyle}>Contact</NavLink></Button>
                   </div>
                 </div>
         <div className="app-body about offset col-lg-10 col-lg-offset-1" >

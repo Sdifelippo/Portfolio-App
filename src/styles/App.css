@@ -18,6 +18,11 @@
   font-size: large;
 }
 
+div.navButton {
+  display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
 section.row {
   background-image: url('http://orig12.deviantart.net/c59f/f/2017/159/8/7/destiny_2_cinematic_shot__1_by_daroz-dbc03f9.jpg') ;
 }

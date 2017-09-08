@@ -9,10 +9,6 @@ class Home extends Component {
       "fontFamily": "Arizonia",
       "fontSize": "18rem"
     }
-    let titleStyle = {
-      "fontFamily": "Raleway",
-      "fontSize": "10rem"
-    }
     let subtitleStyle = {
       "fontFamily": "Raleway",
       "fontSize": "10rem"
@@ -24,13 +20,14 @@ class Home extends Component {
         <nav className="row navbar navbar-inverse">
           <div className="container-fluid">
             <div className="navbar-header">
+            <h1>Welcome To My Portfolio</h1>
             </div>
           </div>
           <div
             className="col-lg-12 header"
             style={headerStyle}>
             <div className="header-title">
-              
+
               <div className="subtitle" style={subtitleStyle}>
 
               </div>
