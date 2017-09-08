@@ -7,12 +7,11 @@ class BaseLayout extends Component {
   render(){
 
       let FirstStyle = {
-        "textShadow": "1px 1px 2px white",
         "height": "100%",
         "padding": "100px"
       }
       let buttonStyle = {
-        "textShadow": "1px 1px 2px white",
+
         "backgroundPosition": "top",
 
       }
@@ -31,19 +30,19 @@ class BaseLayout extends Component {
         <div className="wrapHeader" style={wrapHeader}>
         <div className="navButton" >
         <div style={buttonStyle}>
-          <Button><NavLink to="/Home" >Home </NavLink></Button>
+          <Button variant="raised"><NavLink to="/Home" >Home </NavLink></Button>
           </div>
           <div className="navButton">
-            <Button><NavLink to="/About" style={buttonStyle}>About</NavLink></Button>
+            <Button variant="raised"><NavLink to="/About" style={buttonStyle}>About</NavLink></Button>
             </div>
             <div className="navButton">
-              <Button><NavLink to="/Portfolio" style={buttonStyle}>Portfolio</NavLink></Button>
+              <Button variant="raised"><NavLink to="/Portfolio" style={buttonStyle}>Portfolio</NavLink></Button>
               </div>
               <div className="navButton">
-                <Button><NavLink to="/References" style={buttonStyle}>References</NavLink></Button>
+                <Button variant="raised"><NavLink to="/References" style={buttonStyle}>References</NavLink></Button>
                 </div>
                 <div className="navButton">
-                  <Button><NavLink to="/Contact" style={buttonStyle}>Contact</NavLink></Button>
+                  <Button variant="raised"><NavLink to="/Contact" style={buttonStyle}>Contact</NavLink></Button>
                   </div>
                 </div>
         <div className="app-body about offset col-lg-10 col-lg-offset-1" >
@@ -56,7 +55,7 @@ class BaseLayout extends Component {
             <p> Web Developer </p>
             <img className="MyImage" style= {MyImage} alt="StevenDifelippo" src={require('./StevenDifelippo.jpg')}
             />
-<NavLink to="/Portfolio" style={{color: 'white'}} activeStyle={{color: 'white'}}>Show Projects</NavLink>
+<Button variant="raised"><NavLink to="/Portfolio" style={{color: '#223A5E'}} activeStyle={{color: '#223A5E'}}>Show Projects</NavLink></Button>
 </article>
         </section>
         </div>

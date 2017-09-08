@@ -7,6 +7,14 @@
   height: 80px;
 }
 
+a {
+    text-decoration:none;
+    font-family:Arial;
+    display: block;
+}
+.active{
+  color: #A3C34A;
+}
 .App-header {
   background-color: #222;
   height: 150px;
@@ -18,6 +26,10 @@
   font-size: large;
 }
 
+button.mui-btn {
+  background-color: #B15C1A;
+  text-decoration-color:
+}
 div.navButton {
   display: flex;
     flex-flow: wrap;
