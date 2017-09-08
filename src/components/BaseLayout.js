@@ -39,7 +39,13 @@ class BaseLayout extends Component {
             <div className="navButton">
               <NavLink to="/Portfolio" style={buttonStyle}>Portfolio</NavLink>
               </div>
-</div>
+              <div className="navButton">
+                <NavLink to="/Refrences" style={buttonStyle}>Refrences</NavLink>
+                </div>
+                <div className="navButton">
+                  <NavLink to="/Contact" style={buttonStyle}>Contact</NavLink>
+                  </div>
+                </div>
         <div className="app-body about offset col-lg-10 col-lg-offset-1" >
         <section className="row" style= {FirstStyle} >
           <article className="col-lg-5">
@@ -50,7 +56,7 @@ class BaseLayout extends Component {
             <p> Web Developer </p>
             <img className="MyImage" style= {MyImage} alt="StevenDifelippo" src={require('./StevenDifelippo.jpg')}
             />
-<NavLink to="/Portfolio" style={{color: 'white'}} activeStyle={{color: 'white'}}>Show Projects</NavLink>          
+<NavLink to="/Portfolio" style={{color: 'white'}} activeStyle={{color: 'white'}}>Show Projects</NavLink>
 </article>
         </section>
         </div>
